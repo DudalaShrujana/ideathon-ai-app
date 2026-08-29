@@ -8,6 +8,13 @@
 An enterprise-grade, serverless AI application designed for rapid business ideation, strategic risk assessment, and roadmap planning. Built with **Streamlit**, **Google Cloud Run**, **Firebase**, **Google Cloud Secret Manager**, and powered by multi-turn **Gemini models** via Vertex AI.
 
 ---
+## 📸 Application Preview
+
+![Ideathon AI Innovation Hub Preview](app-screenshot.png)
+
+---
+
+
 
 ## 🏗️ Architecture & Technical Stack
 [ Streamlit UI (Cloud Run) ]
