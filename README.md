@@ -11,9 +11,13 @@ An enterprise-grade, serverless AI application designed for rapid business ideat
 
 ## 🏗️ Architecture & Technical Stack
 [ Streamlit UI (Cloud Run) ]
+
 │
+
 ├──► Google GenAI SDK (Vertex AI) ──► Gemini 2.5 Flash / Pro
+
 ├──► Firebase Admin Auth & Firestore ─► User Session & Data Isolation
+
 └──► Google Cloud Secret Manager ────► Secure Config Management                                                                                                                                                                                                              * **Frontend & Presentation:** Streamlit (Python containerized via Docker)
 * **AI & Machine Learning Engine:** Google GenAI SDK targeting Vertex AI (`gemini-2.5-flash` & `gemini-2.5-pro`)
 * **Backend & Persistence:** Firebase Admin SDK & Cloud Firestore (User-isolated document storage)
