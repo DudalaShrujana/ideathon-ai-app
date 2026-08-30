@@ -14,22 +14,9 @@ An enterprise-grade, serverless AI application designed for rapid business ideat
 
 ---
 
-
-
-## 📸 Application Preview
-
-![Ideathon AI Innovation Hub Preview](app-screenshot.png)
-
----
-
 ## 🏗️ Architecture & Technical Stack
 [ Streamlit UI (Cloud Run) ]
 │
-<<<<<<< HEAD
-├──► Google GenAI SDK (Vertex AI) ──► Gemini 2.5 Flash / Pro
-├──► Firebase Admin Auth & Firestore ─► User Session & Data Isolation
-└──► Google Cloud Secret Manager ────► Secure Config Management
-=======
 
 ├──► Google GenAI SDK (Vertex AI)
 
@@ -42,7 +29,7 @@ An enterprise-grade, serverless AI application designed for rapid business ideat
 └──► Google Cloud Secret Manager 
 
 ────► Secure Config Management                                                                                                                                                                                                            
->>>>>>> 1752ff25e79bb138de8ef35e11811a2b88becee4
+
 * **Frontend & Presentation:** Streamlit (Python containerized via Docker)
 * **AI & Machine Learning Engine:** Google GenAI SDK targeting Vertex AI (`gemini-2.5-flash` & `gemini-2.5-pro`)
 * **Backend & Persistence:** Firebase Admin SDK & Cloud Firestore (User-isolated document storage)
@@ -58,6 +45,11 @@ An enterprise-grade, serverless AI application designed for rapid business ideat
 3. **Enterprise Security & Isolation:** Integrated with Firebase Auth foundations and server-side Firestore document isolation to store structured prompt-response histories securely.
 4. **Secret Manager Pattern:** Implements secure secret fetching pipelines compliant with enterprise-grade GCP standards.
 5. **Productivity Tooling:** One-click business prompt templates (*Growth Strategy*, *Risk Assessment*, *Product Roadmap*) and structured report exporting (`.txt`).
+6. **Real-Time Fact-Checking & Credibility:** Scans generated outputs to detect unsupported claims and ensure reliability.
+7. **Intelligent PII Redaction:** Automatically safeguards and masks sensitive user information before processing.
+8. **Dynamic Report Exporting:** Generates structured exportable session summaries (.txt) for immediate review.
+9. **Secret Manager Configuration:** Secures environment keys and credentials via Google Cloud Secret Manager.
+10. **Scalable Cloud Run Deployment:** Fully containerized using Docker on Google Cloud Run for reliable, zero-maintenance auto-scaling.
 
 ---
 
